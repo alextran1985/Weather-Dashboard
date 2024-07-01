@@ -12,34 +12,70 @@
     <div class="container">
      <div class="weather-input">
       <h3>Enter your City</h3>
-      <input type="text" placeholder="your city">
+      <input id="city-input" type="text" placeholder="your city">
       <button class="search-btn">Search</button>
       <div class="separator"></div>
+    </div>
 
 
       <div class="current-weather">
         <div class = "details">
-          <h2>Atlanta (2023-06-19)</h2>
-          <h3>Temperature: 19.10C</h3>
-          <h3>wind: 4.31 M/s</h3>
-          <h3>Humidity: 91%</h3>
+          <h3>__</h3>
+          <h3>Temperature: __C</h3>
+          <h3>wind: __ M/s</h3>
+          <h3>Humidity: __%</h3>
         </div>
         <div class="icon">
           <img src="https://openweathermap.org/img/wn/10d@4x.png" alt="weatherIcon">
           <h3>Moderate Rain</h3>
+       </div>
+      </div>
+        <div class="days-forecast">
+          <h2>5-Day Forecast</h2>
+          <ul class="weather-card">
+            <li class="card">
+              <h3>(_____)</h3>
+              <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weatherIcon">
+              <h4>Temperature: __C</h4>
+              <h4>wind: __ M/s</h4>
+              <h4>Humidity: __%</h4>
+            </li>
+            <li class="card">
+              <h3>(_____)</h3>
+              <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weatherIcon">
+              <h4>Temperature: __C</h4>
+              <h4>wind: __ M/s</h4>
+              <h4>Humidity: __%</h4>
+            </li>
+            <li class="card">
+              <h3>(_____)</h3>
+              <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weatherIcon">
+              <h4>Temperature: __C</h4>
+              <h4>wind: __ M/s</h4>
+              <h4>Humidity: __%</h4>
+            </li>
+            <li class="card">
+              <h3>(_____)</h3>
+              <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weatherIcon">
+              <h4>Temperature: __C</h4>
+              <h4>wind: __ M/s</h4>
+              <h4>Humidity: __%</h4>
+            </li>
+            <li class="card">
+              <h3>(_____)</h3>
+              <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weatherIcon">
+              <h4>Temperature: __C</h4>
+              <h4>wind: __ M/s</h4>
+              <h4>Humidity: __%</h4>
+            </li>
+          </ul>
         </div>
+        </div>
+      
         
 
-    <div class="weather-card" style="width: 28rem">
-      <div class="card-body">
-        <h5 class="card-title">City and Date</h5>
-        <p class="card-text" id="ct-temp">Temp:</p>
-        <p class="card-text" id="ct-wind">Wind:</p>
-        <p class="card-text" id="ct-humidity">Humidity:</p>
-      
-      </div>
-    </div>
 
+    
     
   <script src="assets/scripts.js"></script>
   <script
